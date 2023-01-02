@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+header{
+    background-color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+main{
+    line-height: 40px;
+    padding: 50px;
+}
+
+main h1{
+    text-transform: uppercase;
+}
+
+main p{
+    font-size: 18px;
+}
+
+main p span{
+    font-weight: bold;
+}
+
+.requirement, .procedure{
+    padding: 50px;
+    line-height: 40px;
+}
+
+.requirement h2{
+    padding-bottom: 20px;
+}
+
+.requirement li{
+    font-size: 18px;
+}
+
+.procedure ol li span{
+    font-weight: bold;
+}
+
+.photos {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.photo{
+    width: 400px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+.photo img{
+    width: 350px;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+@media  screen and (max-width: 410px) {
+    .photo{
+        width: 300;
+    }
+
+    .photo img{
+        width: 300px;
+    }
+}
